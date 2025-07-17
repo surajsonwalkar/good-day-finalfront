@@ -11,7 +11,7 @@ function App() {
     e.preventDefault();
     setResponse("Loading...");
     try {
-      const res = await fetch("https://good-day-fullstack-2.onrender.com/check_day", {
+      const res = await fetch("https://good-day-final.onrender.com/check_day", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
